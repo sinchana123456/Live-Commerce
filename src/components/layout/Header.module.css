@@ -1,0 +1,43 @@
+.header {
+  background-color: rgb(46, 22, 22);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content:center;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 200;
+  border-bottom: 2px solid rgb(116, 57, 89);
+}
+.header a {
+  color: white;
+  margin: 0 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 11.5px;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a.active {
+  color: white;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid white;
+}
+
+.container {
+  margin-top: -50px;
+  height: 15rem;
+  background-color: rgba(87, 12, 34, 0.562);
+  text-align: center;
+  overflow: hidden;
+  z-index: 0;
+}
+.container h1 {
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  padding: 30px;
+  font-size: 100px;
+  font-weight: bold;
+}

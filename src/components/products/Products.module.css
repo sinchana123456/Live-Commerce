@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    margin: 0px 5rem;
+ }
+ 
+ .wrapper {
+    display: flex;
+    width: 65%;
+    justify-content:space-between;
+    padding: 12px 0px;
+    font-size: 17px;
+ }
+ 
+ .wrapper span {
+    margin: 0;
+    justify-content: center;
+ }
+ 
+  .container h3{
+    display: flex;
+     width: 70%;
+     justify-content:space-around;
+     text-align: center;
+     font-size: 24px;
+     color: #333;
+     margin-bottom: 15px;
+     font-family: 'Times New Roman', Times, serif;
+  }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
